@@ -50,7 +50,6 @@ type KebabCase<S extends string, Middle extends boolean = false> =
                 : `-${LowercaseCharMap[Fst]}${KebabCase<Rest, true>}`)
             : `${Fst}${KebabCase<Rest, true>}`)
         : ''
-type A = KebabCase<'ABC'>
 
 
 /* _____________ Test Cases _____________ */

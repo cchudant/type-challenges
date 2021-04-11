@@ -30,7 +30,7 @@ type GetReadonlyKeys<T> = {
       Equal<{ -readonly [K2 in K]: T[K2] }, { [K2 in K]: T[K2] }> extends false
           ? K
           : never
-  }[keyof T];
+  }[keyof T]
 
 
 /* _____________ Test Cases _____________ */

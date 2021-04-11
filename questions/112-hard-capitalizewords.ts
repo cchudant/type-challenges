@@ -27,7 +27,6 @@ type CapitalizeWords<S extends string> =
             : (S extends `${infer Fst}.${infer Rest}`
                 ? `${CapitalizeWords<Fst>}.${CapitalizeWords<Rest>}`
                 : Capitalize<S>))
-type a = CapitalizeWords<'foo bar hello'>
 
 /* _____________ Test Cases _____________ */
 import { Equal, Expect } from '@type-challenges/utils'
