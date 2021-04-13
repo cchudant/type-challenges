@@ -85,7 +85,7 @@ extreme (8/12 done)
 - [x] [517 - Multiply](./questions/517-extreme-multiply.ts)
 - [x] [697 - Tag](./questions/697-extreme-tag.ts)
 - [x] [734 - Inclusive Range](./questions/734-extreme-inclusive-range.ts)
-- [ ] [741 - Sort](./questions/741-extreme-sort.ts)
+- [x] [741 - Sort](./questions/741-extreme-sort.ts)
 - [ ] [869 - DistributeUnions](./questions/869-extreme-distributeunions.ts)
 - [ ] [925 - Assert Array Index](./questions/925-extreme-assert-array-index.ts)
 
